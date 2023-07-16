@@ -181,3 +181,24 @@ body h4 {
     border-radius: .25rem;
     border: none;
 }
+
+@media (max-width: 768px) {
+    .title-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-info h1 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 525px) {
+    .infos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
